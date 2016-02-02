@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.epsilon.coders.phms">
+
+    <permission
+        android:name="com.coders.epsilon.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/firstaidpersonalmedicapplargeicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activities.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ProfileCreate"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.ProfilePreviewUpdate"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.DoctorProfileCreate"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.DisplayFamilyDetails"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.DisplayAllFamilyProfile"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.FamilyProfile"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.VaccinationListTodayAndUpcoming"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.CreateVaccinationChart"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.VaccinationChartHistory"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.DailyVaccinationChartView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.DietListTodayAndUpcoming"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.DietChartHistory"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.CreateDietChart"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.DailyFamilyDietChartView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.MyProfileActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.DoctorList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.FamilyDeitChartListTodayAndUpcoming"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.MyProfileCreateActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.AddCareInfo"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.CareInfoDisplay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.EmergencySupport"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".utills.BMICalculator"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.ImportantNoteActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.CreateNoteActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".diseaseActivities.Cholera"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".diseaseActivities.HepatitisA"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".diseaseActivities.MalariaActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".diseaseActivities.Polio"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".diseaseActivities.Rabics"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".diseaseActivities.Tetanusdiptheria"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".diseaseActivities.Typhoid"
+            android:label="@string/app_name" >
+        </activity>
+
+    </application>
+
+</manifest>

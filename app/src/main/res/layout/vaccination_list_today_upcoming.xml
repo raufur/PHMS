@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".VaccinationListTodayAndUpcoming">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="PHMS" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/myVaccinationChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="#FFFFFFFF"
+            android:padding="5dp"
+            android:text=" Vaccination"
+
+            android:textSize="25sp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/btnmyTodayVaccinationChartView"
+            android:src="@drawable/addicon"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            >
+            <TextView
+                android:id="@+id/myTodayVaccinationChartView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/day"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/todayVaccination"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/lvTodayVaccinationChart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvUpComingVaccinationChartView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/upcoming"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/upComingVaccination"
+            android:textColor="#0052A3"
+            android:textSize="20sp" />
+
+
+
+
+        <ListView
+            android:id="@+id/lvUpComingVaccinationChart"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFFFF" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

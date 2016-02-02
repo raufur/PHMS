@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VaccinationListTodayAndUpcoming">
+
+    <item
+        android:id="@+id/history"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="@string/history"/>
+
+     <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+         android:icon="@drawable/homee"
+        android:title="Home"/>
+
+</menu>

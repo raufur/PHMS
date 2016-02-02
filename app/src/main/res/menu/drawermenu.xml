@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:title="My Profile"-->
+        <!--android:id="@+id/nav_item_my_profile"-->
+        <!--android:icon="@drawable/person"/>-->
+
+
+    <item android:title="Home"
+          android:id="@+id/nav_item_home"
+          android:icon="@drawable/homee"/>
+
+
+
+
+
+
+    <item android:title="More">
+        <menu>
+            <item android:title="Help"
+                android:id="@+id/nav_item_help"
+                android:icon="@drawable/help"/>
+
+
+            <item android:title="About Us"
+                android:id="@+id/nav_item_about_us"
+                android:icon="@drawable/draft"/>
+        </menu>
+    </item>
+
+    <!--<group android:id="@+id/group_settings_id">-->
+
+        <!--<item android:title="Settings"-->
+              <!--android:icon="@drawable/settings"/>-->
+        <!--<item android:title="Help"-->
+             <!--android:icon="@drawable/help"/>-->
+    <!--</group>-->
+
+
+</menu>

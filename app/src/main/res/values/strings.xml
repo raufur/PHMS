@@ -1,0 +1,480 @@
+<resources>
+    <string name="app_name">HPMS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Family Profile</item>
+        <item>Doctors</item>
+        <item>Diets</item>
+        <item>Vaccination</item>
+        <item>Care</item>
+        <item>Emergency Support</item>
+    </string-array>
+
+
+
+    <string name="Name">Name</string>
+    <string name="age">Age</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="Date_Of_Birth">Click to select date</string>
+    <string name="Height">Height in cm</string>
+    <string name="Weight">Weight</string>
+    <string name="Save">Save</string>
+    <string name="createDietChart">Create Diet Chart</string>
+    <string name="alarm">Set Alarm</string>
+    <string name="dateOfDiet">Date Of Diet</string>
+    <string name="timeOfDiet">Time Of Diet</string>
+    <string name="myfeastName">Feast name</string>
+    <string name="myfeastManu">Feast manu</string>
+    <string name="Special_comment">Special Comment</string>
+    <string name="Create_Profile">Create Family Profile</string>
+    <string name="My_Profile">Create My Profile</string>
+    <string name="click_the_field_to_edit">Click the field to edit</string>
+
+    <string name="saveButton">Save</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="updateButton">Update</string>
+    <string name="deleteButton">Delete</string>
+
+    <string name="Update">Update</string>
+    <string name="load"></string>
+    <string name="myDietChart">Diet Chart</string>
+    <string name="todayDiet">Diet Chart of The Day</string>
+    <string name="upComingDiet">Upcoming Diet Chart</string>
+    <string name="Friday">16/01/2015 Friday</string>
+    <string name="image">Loading!!!</string>
+    <string name="time">Time</string>
+    <string name="manu">Feast manu</string>
+    <string name="home">ICare Diet Home</string>
+    <string name="menu_Home">ICare->Home</string>
+    <string name="food">Event Name</string>
+    <string name="addDailyDiet">Add Your Daily Diet</string>
+    <string name="title_activity_icare_splash">ICare Splash</string>
+    <string name="title_activity_icare_profile_preview">Profile Preview</string>
+    <string name="title_activity_icare_profile_preview_acitvity">ICare Profile Preview</string>
+    <string name="title_activity_icare_create_diet_chart">ICare Create Diet Chart</string>
+    <string name="title_activity_icare_diet_list">ICare Diet List</string>
+    <string name="title_activity_icare_daily_diet_chart_view">Daily Diet Chart View </string>
+    <string name="title_activity_icare_diet_history">ICare Diet History</string>
+    <string name="title_activity_icare_care_info"> Care Information</string>
+    <string name="title_doctor_profile_create">Create Doctor Profile</string>
+    <string name="title_home">I Care Home</string>
+    <string name="radioAll">All</string>
+    <string name="radioWeek">Weekly</string>
+    <string name="radioMonth">Monthly</string>
+    <string name="pickDiet">Pick Diet Date</string>
+    <string name="myDietChartHistory">My Diet Chart History</string>
+    <string name="history">History</string>
+    <string name="createDiet">Create Diet</string>
+    <string name="myprofile">My Profile</string>
+    <string name="date">Date</string>
+    <string name="deleteProfile">Delete</string>
+    <string name="myfeastMenu">Feast menu</string>
+    <string name="successfullySaved">Successfully Saved</string>
+    <string name="notSaved">Not Saved</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="successfullyUpdated">Successfully Updated</string>
+    <string name="notUpdated">Not Updated</string>
+    <string name="editData">Edit Data</string>
+    <string name="selectData">Select Data</string>
+    <string name="deleteData">Delete Data</string>
+    <string name="title_doctor_list">Doctor List</string>
+    <string name="email_hint">info@stackoverflow.net</string>
+    <string name="care_name_hint">Medinova</string>
+    <string name="phone_hint">+8801911758004</string>
+    <string name="address_hint">House# , Roda#, City name</string>
+    <string name="dainame">Name:</string>
+    <string name="diaaddress">Address:</string>
+    <string name="diamobile">Mobile:</string>
+    <string name="diaemail">Email:</string>
+
+    <string-array name="bloodGroup">
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>AB-</item>
+        <item>O-</item>
+    </string-array>
+
+    <string name="blood_prompt">Choose Blood Group</string>
+    <string name="title_activity_main">ICare</string>
+    <string name="title_activity_care_info_display">Care Information</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_family_profile">Family Profile</string>
+
+    <!-- Add it vaccine  start -->
+
+    <string name="createVaccinationChart">Create Vaccination Chart</string>
+    <string name="dateOfVaccination">Date Of Vaccination</string>
+    <string name="timeOfVaccination">Time Of Vaccination</string>
+    <string name="myVaccinationName">Vaccination name</string>
+    <string name="myVaccinationDetails">Vaccination Details </string>
+    <string name="myVaccinationChart">Vaccination Chart</string>
+    <string name="todayVaccination">Vaccination Chart of The Day</string>
+    <string name="upComingVaccination">Upcoming Vaccination Chart</string>
+    <string name="title_activity_icare_create_vaccination_chart">ICare CreateVaccination Chart</string>
+    <string name="title_activity_icare_vaccination_list">ICare Vaccination List</string>
+    <string name="myVaccinationChartHistory">Vaccination Chart History</string>
+    <string name="title_activity_icare_daily_vaccination_chart_view">Daily Vaccination Chart</string>
+    <string name="title_activity_icare_vaccination_history">ICare Vaccination History</string>
+    <string name="mVaccinationDetails">Vaccination Details</string>
+    <string name="addDailyVaccination">Add Daily Vaccination</string>
+    <string name="createVaccination">Create Vaccination</string>
+    <string name="pickVaccination">Pick Vaccination Date</string>
+    <string name="menu">Vaccination menu</string>
+    <string name="vaccine">Vaccination Name</string>
+    <string name="vaccineChart">Vaccination Chart</string>
+
+
+    <!-- Add it new end -->
+
+    <string name="activity_emergency">Emergency Support</string>
+    <string name="title_activity_dispaly_allfamily_profile">Family Profile</string>
+    <string name="title_activity_view_family_profile_details">Profile Details</string>
+    <string name="title_activity_display_family_details">Display Family Details</string>
+
+    <!-- Add it for family diet   || start -->
+
+    <string name="createFamilyDietChart">Create Family Diet </string>
+    <string name="dateOfFamilyDiet">Date Of Family Diet</string>
+    <string name="timeOfFamilyDiet">Time Of Family Diet</string>
+    <string name="familyDietName">Diet name</string>
+    <string name="familyDietDetails">Diet Details </string>
+    <string name="familyDietChart">Family Diet Chart</string>
+    <string name="todayFamilyDiet">Family Diet of The Day</string>
+    <string name="upComingFamilyDiet">Upcoming Family Diet</string>
+    <string name="title_activity_icare_create_family_diet_chart">ICare Create Family  Diet </string>
+    <string name="title_activity_icare_family_dietlist">ICare Family Diet List</string>
+    <string name="familyDietChartHistory">Family Diet History</string>
+    <string name="title_activity_icare_daily_family_diet_chart_view">Daily Family Diet Chart </string>
+    <string name="title_activity_icare_family_diet_history">ICare Family Diet History</string>
+    <string name="mFamilyDietDetails">Family Diet Details</string>
+    <string name="addDailyFamilyDiet">Add Your Daily Family Diet </string>
+    <string name="createFamilyDiet">Create Family Diet </string>
+    <string name="pickFamilyDiet">Pick Family Diet Date</string>
+    <string name="family_diet_details">Family Diet Details</string>
+    <string name="family_diet_name">Family Diet Name</string>
+    <string name="family_diet_chart">Family Diet  Chart</string>
+    <string name="family_diet_history">Family Diet History</string>
+    <string name="family_diet_today_upcomming">Family Diet History</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_add_profile">AddProfileActivity</string>
+    <string name="title_activity_display_all_family_profile">DisplayAllFamilyProfile</string>
+    <string name="title_activity_family_deit_chart_list_today_and_upcoming">
+        FamilyDeitChartListTodayAndUpcoming
+    </string>
+    <string name="title_activity_details_family">DetailsFamilyActivity</string>
+    <string name="title_activity_my_profile_create">MyProfileCreateActivity</string>
+    <string name="title_activity_bmicalculator">BMICalculator</string>
+    <string name="title_activity_important_note">ImportantNoteActivity</string>
+    <string name="title_activity_create_note">CreateNoteActivity</string>
+    <string name="title_activity_health_tips">HealthTips</string>
+
+    <!-- Add it for family diet  || end  -->
+
+    <!--Help Page-->
+    <string name="help">If you are having problems using this app then please feedback us to diagnose the problem.
+        Please see "About Us" for getting our contact info.
+    </string>
+
+    <!--About Us-->
+
+
+    <!--Disease-->
+<string name="hepatitis_a"><![CDATA[
+        <html>
+        <body style="text-align:jastify">
+        <h3>
+            What is Hepatitis A:
+        </h3>
+        <p style="test-align:justify">
+            Hepatitis A (formerly known as infectious hepatitis) is an acute infectious disease of the liver caused by the hepatitis A virus.
+        </p>
+        <h3>
+            Causes:        </h3>
+        <p>
+            You can catch the disease if you drink water or food that been contaminated
+            with the stool of someone with the virus.
+            You can also get infected if you:
+            •	Eat fruits, vegetables, or other foods that were contaminated during handling
+            •	Eat raw shellfish harvested from water that got the virus in it
+            •	Swallow contaminated ice.
+
+
+        </p>
+        <h3>            Symtomps:</h3>
+        <p>
+            Polio, in its most debilitating forms, displays symptoms such as paralysis and death. However, most people with polio do not actually display any symptoms or become noticeably sick. When symptoms do appear, there are differences depending on the type of polio.
+            Nonparalytic polio (abortive poliomyelitis) leads to flu-like symptoms that last for a few days or weeks, such asfever, sore throat, headache, vomiting, fatigue, back and neck pain, arm and leg stiffness, muscle tenderness, muscle spasms, and meningitis.
+            Treatments for polio
+
+            There is no cure for polio once a person becomes infected. Therefore, treatments are focused on increasing comfort, managing symptoms, and preventing complications. This may include providing bed rest, antibiotics for additional infections, pain killers, ventilators to help breathing, physiotherapy and moderate exercise, and a proper diet.
+
+
+        </p>
+        <h3> Treatment:</h3>
+        <p>
+            No specific treatment for hepatitis A is known. Sufferers are advised to rest, avoid fatty foods and alcohol (these may be poorly tolerated for some additional months during the recovery phase and cause minor relapses), eat a well-balanced diet, and stay hydrated.[38]based on the type of parasite that you have. In some instances, the medication prescribed will not be effective. Drug-resistant parasites have been reported. These parasites make many drugs ineffective. If this occurs, your doctor may need to change medications or use more than one medication to treat your condition
+
+        </p>
+        </body>
+        </html>
+    ]]></string>
+    <string name="maleria"><![CDATA[
+        <html>
+        <body style="text-align:jastify">
+        <h3>
+            What is Malaria:
+        </h3>
+        <p style="test-align:justify">
+            Malaria is a life-threatening disease. It is typically transmitted through the bite of an infected
+            Anopheles mosquito. Infected mosquitoes carry the Plasmodium parasite.
+           When this mosquito bites you, the parasite is released into your bloodstream.
+        </p>
+        <h3>
+            Causes:        </h3>
+        <p>
+            Malaria is a life-threatening disease. It is typically transmitted through the bite of an infected
+            Malaria can occur if a mosquito infected with the Plasmodium parasite bites you. In addition, an
+            infected mother can pass the disease to her baby at birth. This is known as congenital malaria.
+        </p>
+        <h3>            Symtomps:</h3>
+        <p>
+            shaking chills that are moderate to severe
+            •	high fever
+            •	profuse sweating
+            •	headache
+            •	nausea
+            •	vomiting
+            •	diarrhea
+            •	anemia
+            •	muscle pain
+            •	convulsions
+            •	coma
+            •	bloody stools
+
+        </p>
+        <h3> Treatment:</h3>
+        <p>
+            Malaria is a life-threatening condition. Treatment for the disease is typically provided in a hospital. Your doctor will prescribe medications based on the type of parasite that you have. In some instances, the medication prescribed will not be effective. Drug-resistant parasites have been reported. These parasites make many drugs ineffective. If this occurs, your doctor may need to change medications or use more than one medication to treat your condition
+
+        </p>
+        </body>
+        </html>
+    ]]></string>
+    <string name="name"><![CDATA[
+        <html>
+        <body>
+        <h1>THis is my <b>first html</b> tag</h1>
+        </body>
+        </html>
+    ]]></string>
+
+    <string name="typhoid"><![CDATA[
+        <html>
+        <body style="text-align:jastify">
+        <h3>
+            What is typhoid fever?
+
+
+        </h3>
+        <p style="test-align:justify">
+            Typhoid fever is an acute illness associated with fever caused by theSalmonella typhi bacteria. It can also be caused by Salmonella paratyphi, a related bacterium that usually causes a less severe illness. The bacteria are deposited in water or food by a human carrier and are then spread to other people in the area.
+        </p>
+        <h3>
+            Causes of Typhoid:       </h3>
+        <p>
+            Typhoid is usually transmitted by water or food, in much the same way as cholera. People who are infected excrete live bacteria in their feces and urine. They are usually contagious for a few days before any symptoms develop, so they do not know they need to take extra precautions. If they do not wash their hands properly, the typhoid bacillus can be transferred to food or water and from there to another person. Also, it can be spread directly from person to person via contaminated fingers.
+
+
+        </p>
+        <h3>            Symtomps:</h3>
+        <p>
+            Symptoms usually appear 1 or 2 weeks after infection but may take as long as 3 weeks to appear. Typhoid usually causes a high, sustained fever, often as high as 40 degree C (10degree F), and extreme exhaustion.
+            Other common symptoms include:
+            •	constipation
+            •	cough
+            •	headache
+            •	loss of appetite
+            •	stomach pains
+            •	sore throat
+            Rarer symptoms include:
+            •	bleeding from the rectum
+            •	delirium
+            •	diarrhea
+            •	temporary pink spots on the chest and abdomen
+
+
+            There is no cure for polio once a person becomes infected. Therefore, treatments are focused on increasing comfort, managing symptoms, and preventing complications. This may include providing bed rest, antibiotics for additional infections, pain killers, ventilators to help breathing, physiotherapy and moderate exercise, and a proper diet.
+
+
+        </p>
+        <h3> Treatment:</h3>
+        <p>
+            With antibiotic treatment, symptoms start to subside after 5 to 7 days, but without treatment they continue to get worse for several weeks, and more than 10% of untreated people may die.
+            A small number of people who recover from typhoid may have a relapse of their symptoms just a few weeks later. The second bout tends to be less severe than the first, and clears up quickly with further treatment.
+            Many people suffer from mild intestinal bleeding, but it is severe in only a small minority of cases. The main way typhoid kills is by causing perforation of the small intestines, causing bacteria to pour into the abdominal cavity. This condition is calledperitonitis, and is often fatal.
+
+        </p>
+        </body>
+        </html>
+    ]]></string>
+    <string name="polioo"><![CDATA[
+        <html>
+        <body style="text-align:jastify">
+        <h3>
+            What is Polio ?:
+
+
+        </h3>
+        <p style="test-align:justify">
+            Polio, or poliomyelitis, is a highly contagious viral infection that can lead to paralysis, breathing problems, or even death.         </p>
+        <h3>
+            Causes of Polio:       </h3>
+        <p>
+            Polio is caused by the poliovirus, a highly contagious virus specific to humans. The virus usually enters the environment in the feces of someone who is infected. In areas with poor sanitation, the virus easily spreads through the fecal-oral route, via contaminated water or food. In addition, direct contact with a person infected with the virus can cause polio.
+
+
+        </p>
+        <h3>            Symtomps:</h3>
+        <p>
+            Polio, in its most debilitating forms, displays symptoms such as paralysis and death. However, most people with polio do not actually display any symptoms or become noticeably sick. When symptoms do appear, there are differences depending on the type of polio.
+            Nonparalytic polio (abortive poliomyelitis) leads to flu-like symptoms that last for a few days or weeks, such asfever, sore throat, headache, vomiting, fatigue, back and neck pain, arm and leg stiffness, muscle tenderness, muscle spasms, and meningitis.
+
+
+
+        </p>
+        <h3> Treatment:</h3>
+        <p>
+            There is no cure for polio once a person becomes infected. Therefore, treatments are focused on increasing comfort, managing symptoms, and preventing complications. This may include providing bed rest, antibiotics for additional infections, pain killers, ventilators to help breathing, physiotherapy and moderate exercise, and a proper diet.
+        </p>
+        </body>
+        </html>
+    ]]></string>
+
+    <string name="rabics"><![CDATA[
+        <html>
+        <body style="text-align:jastify">
+        <h3>
+            What is Rabics?
+
+
+        </h3>
+        <p style="test-align:justify">
+            Typhoid fever is an acute illness associated with fever caused by theSalmonella typhi bacteria. It can also be caused by Salmonella paratyphi, a related bacterium that usually causes a less severe illness. The bacteria are deposited in water or food by a human carrier and are then spread to other people in the area.
+        </p>
+        <h3>
+            Causes of Rabics:       </h3>
+        <p>
+            Rabies is a viral illness spread via the saliva of an infected animal. This occurs usually through biting a human or another animal. Transmission can also occur through saliva touching an open wound or touching mucous membranes.
+
+        </p>
+        <h3>            Causes</h3>
+        <p>
+            The bite of a rabid animal is the most common cause of rabies. The virus is carried in the saliva of the rabid animal and is able to enter the body through an opening in the skin, such as a bite wound. Although it is possible to get rabies from a non-bite exposure, this is very rare. For example, non-bite exposures include inhalation of aerosol particles of the virus, or by a rabid animal licking a persons eyes, nose, mouth, or broken skin.
+
+
+        </p>
+        <h3> Treatment:</h3>
+        <p>
+            Treatment to prevent rabies has three essential components if a high probability of viral transmission exists. Depending on the likelihood the animal has rabies and, in some cases, the availability of the animal for observation, your doctor may not initiate the latter two steps involving shots against the rabies virus.
+            •	Wound care involving soap and a virus-killing cleanser (this should always be done for any animal bite)
+            •	A onetime injection of human rabiesimmune globulin (or HRIG), which is a substance that provides rapid, short-term protection against rabies
+            •	Injection of the first of a series of vaccine doses to provide protection against rabies after an exposure
+
+
+        </p>
+        </body>
+        </html>
+    ]]></string>
+    <string name="tetanusdiptheria"><![CDATA[
+        <html>
+        <body style="text-align:jastify">
+        <h3>
+            What is Tetanus?
+
+
+        </h3>
+        <p style="test-align:justify">
+            •	Tetanus is an infectious disease caused by contamination of wounds with the bacteria Clostridium tetani, and/or the spores they produce that live in the soil and animal feces.
+        </p>
+        <h3>
+            Causes of Teteanus:       </h3>
+        <p>
+            Rabies is a viral illness spread via the saliva of an infected animal.
+            This occurs usually through biting a human or another animal. Transmission can
+            also occur through saliva touching an open wound or touching mucous membranes.
+
+        </p>
+        <h3>            Causes</h3>
+        <p>
+            Tetanus usually occurs when a wound becomes contaminated withClostridium tetani bacterial spores. Infection follows when spores become activated and develop into gram-positive bacteria that multiply and produce a very powerful toxin (tetanospasmin) that affects the muscles. Tetanus spores are found throughout the environment, usually in soil, dust, and animal waste. The usual locations for the bacteria to enter the body are puncture wounds, such as those caused by rusty nails, splinters, or even insect bites
+
+
+        </p>
+        <h3> Treatment:</h3>
+        <p>
+            Vaccination can prevent tetanus infections, but only if you receive your booster shots on schedule. If you are not sure whether you are up-to-date on your shots,
+
+
+        </p>
+        </body>
+        </html>
+    ]]></string>
+    <string name="cholera"><![CDATA[
+        <html>
+        <body style="text-align:jastify">
+        <h3>
+            What is Cholera?
+
+
+        </h3>
+        <p style="test-align:justify">
+            •	Cholera is an infectious disease that causes severe watery diarrhea, which can lead to dehydration and even death if untreated. It is caused by eating food or drinking water contaminated with a bacterium calledVibrio cholerae.
+        </p>
+        <h3>
+            Causes of Chorera:       </h3>
+        <p>
+            Vibrio cholerae, the bacterium that causes cholera, is usually found in food or water contaminated by feces from a person with the infection. Common sources include:
+            	Municipal water supplies
+            	Ice made from municipal water
+            	Foods and drinks sold by street vendors
+            	Vegetables grown with water containing human wastes
+            	Raw or undercooked fish and seafood caught in waters polluted with sewage
+
+        </p>
+        <h3>            Symtomps</h3>
+        <p>
+            Symptoms of cholera can begin as soon as a few hours or as long as five days after infection. Often, symptoms are mild. But sometimes they are very serious. About one in 20 people infected have severe waterydiarrhea accompanied by vomiting, which can quickly lead todehydration. Although many infected people may have minimal or no symptoms, they can still contribute to spread of the infection.
+
+
+        </p>
+        <h3> Treatment:</h3>
+        <p>
+            If you are traveling to an area where cholera is common, your chances of catching the disease are still low if you:
+            •	wash your hands
+            •	drink only bottled or boiled water
+            •	avoid raw food and shellfish
+            •	avoid dairy foods
+            •	eat raw fruits and vegetables that you can peel yourself
+
+
+
+
+
+        </p>
+        </body>
+        </html>
+    ]]></string>
+    <string name="title_activity_help_fragment">HelpFragment</string>
+    <string name="title_activity_about_us_fragment">AboutUsFragment</string>
+</resources>

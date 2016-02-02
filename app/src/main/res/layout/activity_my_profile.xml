@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:id="@+id/toolbar"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="MediCare" />
+
+
+        <TextView
+            android:id="@+id/displayNoteListNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewCreate"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@+id/textView1"
+                android:layout_marginRight="14dp"
+                android:layout_toLeftOf="@+id/textView1"
+                android:src="@drawable/my"
+                android:layout_marginTop="10dp"
+
+                />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/myprofile"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/click_the_field_to_edit"
+                    android:id="@+id/textViewMessage"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewName"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@drawable/name"
+                android:src="@drawable/name" />
+
+            <TextView
+                android:id="@+id/viewName"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="@string/Name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageViewAge"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@drawable/age"
+                android:src="@drawable/age" />
+            <TextView
+                android:id="@+id/viewAge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:hint="@string/age"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewBlood"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@drawable/blood"
+                android:src="@drawable/blood" />
+
+            <TextView
+                android:id="@+id/viewBloodGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:ems="10"
+                android:hint="@string/blood_group"
+                android:inputType="text" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewDob"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@drawable/dob"
+                android:src="@drawable/dob" />
+
+            <TextView
+                android:id="@+id/viewDOB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:ems="10"
+                android:hint="@string/Date_Of_Birth"
+                android:inputType="date|text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewweight"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@drawable/weight"
+                android:src="@drawable/weight" />
+
+            <TextView
+                android:id="@+id/viewWeight"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:ems="10"
+                android:hint="@string/Weight"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageViewheight"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@drawable/height"
+                android:src="@drawable/height" />
+            <TextView
+                android:id="@+id/viewHeight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:ems="10"
+                android:maxLength="3"
+                android:hint="@string/Height"
+                android:inputType="number" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewsp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:contentDescription="@drawable/sp"
+                android:src="@drawable/sp"
+                android:layout_below="@+id/viewHeight"
+                android:layout_alignRight="@+id/imageViewDob"
+                android:layout_alignEnd="@+id/imageViewDob" />
+
+            <TextView
+                android:id="@+id/viewSpComment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:ems="10"
+                android:hint="@string/Special_comment"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--<Button-->
+        <!--android:id="@+id/updateProfile"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignRight="@+id/viewSpComment"-->
+        <!--android:layout_below="@+id/viewSpComment"-->
+        <!--android:layout_marginTop="47dp"-->
+        <!--android:background="#58D3F7"-->
+        <!--android:drawableLeft="@drawable/update"-->
+
+        <!--android:padding="10dp"-->
+        <!--android:text="@string/Update"-->
+        <!--android:textColor="@android:color/white" />-->
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#9fd5d0"-->
+            <!--android:text="@string/updateButton"-->
+            <!--android:onClick="update"-->
+            <!--android:id="@+id/btnUpdate" />-->
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#9fd5d0"-->
+            <!--android:text="@string/saveButton"-->
+            <!--android:id="@+id/btnTemp"-->
+            <!--android:onClick="saveUpdateValue"-->
+            <!--android:visibility="gone" />-->
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#9fd5d0"-->
+            <!--android:text="@string/deleteButton"-->
+            <!--android:onClick="delete"-->
+            <!--android:id="@+id/btnDelete"-->
+            <!--android:layout_marginLeft="20dp" />-->
+
+
+
+            <Button
+                android:id="@+id/updateProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:drawableLeft="@drawable/update"
+                android:padding="10dp"
+                android:text="Edit Info"
+                android:textColor="@android:color/white" />
+
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/ColorPrimary"-->
+            <!--android:text="@string/deleteButton"-->
+            <!--android:onClick="delete"-->
+            <!--android:id="@+id/btnDelete"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:textColor="@android:color/white"/>-->
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

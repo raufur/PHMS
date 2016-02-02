@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue"
+        android:id="@+id/toolbar"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Medical Center" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Medical Center"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:background="@color/infocenter"
+        android:layout_marginBottom="20dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#4F29B7"
+            android:layout_height="wrap_content"
+            android:text="@string/dainame"
+
+            android:id="@+id/tvdigname" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/care_name_hint"
+            android:id="@+id/editTextCareName" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#4F29B7"
+            android:text="@string/diamobile"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="@string/phone_hint"
+            android:maxLength="15"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editTextCarePhone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/diaemail"
+            android:textSize="20sp"
+            android:textColor="#4F29B7"
+            android:id="@+id/textView2" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="epsilon.coders.net"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editTextCareEmail" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#4F29B7"
+            android:layout_height="wrap_content"
+            android:text="@string/diaaddress"
+            android:id="@+id/tvdiaadd" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="@string/address_hint"
+            android:singleLine="false"
+            android:minLines="4"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextCareAddress" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/infocenter"
+            android:textColor="@color/white"
+            android:text="Save"
+            android:textSize="20sp"
+            android:id="@+id/buttonCareSave"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView1"
+    tools:context=".ProfileCreate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:id="@+id/toolbar"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="MediCare" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/FimageViewCreate"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="14dp"
+                android:contentDescription="@drawable/person"
+                android:src="@drawable/person" />
+            <TextView
+                android:id="@+id/FtextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/Create_Profile"
+                android:textColor="#14425B"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/FimageViewName"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@drawable/name"
+                android:src="@drawable/name" />
+            <EditText
+                android:id="@+id/FcreateUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Name" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/P_number"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/number" />
+            <EditText
+                android:id="@+id/FNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Number"
+                android:inputType="phone" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/relation"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/relation" />
+            <EditText
+                android:id="@+id/FRelationWithUser"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Relation"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/FimageViewFname"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@drawable/age"
+                android:src="@drawable/age" />
+            <EditText
+                android:id="@+id/FcreateAge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/age"
+                android:inputType="text" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/FimageViewMname"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:contentDescription="@drawable/mname"
+                android:src="@drawable/blood" />
+
+            <Spinner
+                android:id="@+id/FcreateBloodGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/FimageViewDob"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@drawable/dob"
+                android:src="@drawable/dob" />
+            <EditText
+                android:id="@+id/FcreateDateOfBirth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Date_Of_Birth"
+                android:inputType="date|text" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/FimageViewweight"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/weight" />
+            <EditText
+                android:id="@+id/FcreateWeight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Weight"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/FimageViewheight"
+                android:layout_width="25dp"
+                android:layout_height="34dp"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@drawable/height"
+                android:src="@drawable/height" />
+            <EditText
+                android:id="@+id/FcreateHeight"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="3"
+                android:hint="@string/Height"
+                android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/FimageViewsp"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@drawable/sp"
+                android:src="@drawable/sp" />
+
+            <EditText
+                android:id="@+id/FcreateSpecialComment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/Special_comment"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+
+        <!--<Spinner-->
+        <!--android:id="@+id/createBloodGroup"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignLeft="@+id/createAge"-->
+        <!--android:layout_below="@+id/createAge"-->
+        <!--android:entries="@array/bloodGroup"-->
+        <!--android:prompt="@string/blood_prompt" />-->
+
+
+
+        <!--      <EditText
+                  android:id="@+id/createBloodGroup"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignLeft="@+id/createAge"
+                  android:layout_below="@+id/createAge"
+                  android:ems="10"
+                  android:hint="@string/blood_group"
+                  android:inputType="text" />-->
+
+
+        <Button
+            android:id="@+id/FSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Save"
+            android:drawableLeft="@drawable/save"
+            android:onClick="createProfile"
+            android:padding="10dp"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

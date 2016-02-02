@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Emergency Contact Number" />
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Set Emergency Contact Number "
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:id="@+id/buttonENmuber" />
+
+            <!--<Button-->
+                <!--android:layout_width="161dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text=" Set Emergency  SMS"-->
+                <!--android:id="@+id/buttonESMS"-->
+                <!--android:textAllCaps="false"-->
+                <!--android:layout_gravity="center_horizontal" />-->
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_width="115dp"
+                android:layout_height="87dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="@drawable/e_support_call"
+                android:id="@+id/buttonECall" />
+
+            <!--<Button-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_width="113dp"-->
+                <!--android:layout_height="104dp"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textAllCaps="false"-->
+
+                <!--android:background="@drawable/e_support_sms"-->
+                <!--android:id="@+id/buttonSendESms" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+
+            android:layout_height="fill_parent"
+      >
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:singleLine="true"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:textStyle="bold"-->
+                <!--android:text="Your emergency contact SMS:"-->
+                <!--android:id="@+id/textView3" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="textMultiLine"-->
+                <!--android:text="yet not set emergency Sms "-->
+                <!--android:id="@+id/textViewEmergencySms" />-->
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="Your emergency contact number :"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yet not set emergency number "
+                android:id="@+id/textViewEmergencyNumber" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

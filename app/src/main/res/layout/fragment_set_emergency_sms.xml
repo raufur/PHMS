@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Type emergency support sending SMS"
+        android:background="#b0bec5"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etEmergencySMS"
+        android:layout_width="match_parent"
+        android:inputType="textMultiLine"
+        android:maxLength="200"
+        android:maxLines="2"
+        android:layout_height="100dp" >
+
+        <requestFocus />
+
+    </EditText>
+
+</LinearLayout>
